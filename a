@@ -1,0 +1,13 @@
+        if ($ARGV[1] =~ /-Ei/ || $ARGV[1] =~ /--Extract-integration-marked/) {
+        
+        } elsif ($ARGV[1] =~ /-Eq/ || $ARGV[1] =~ /--Extract-question-marked/) {
+        
+        
+        } elsif ($ARGV[1] =~ /-SU/ || $ARGV[1] =~ /--Section-Upgrade/) {
+            say "Specify the upgration mode type : i for integration-marked sections and q for question-marked sections";
+        
+        } elsif ($ARGV[1] =~ /-SUiq/ || $ARGV[1] =~ /--Section-Upgrade/) {
+        
+        
+        } elsif ($ARGV[1] =~ /-SUiq/ || $ARGV[1] =~ /--Section-Upgrade/) {
+
